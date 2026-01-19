@@ -192,3 +192,29 @@ nav {
   text-decoration: none;
   font-weight: bold;
 }
+
+.contact {
+  padding: 60px 80px;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+.contact-links a {
+  margin: 0 15px;
+  padding: 10px 20px;
+  background: #00ffd5;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
