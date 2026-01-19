@@ -218,3 +218,14 @@ nav {
   font-weight: bold;
   border-radius: 6px;
 }
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00ffd5;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
