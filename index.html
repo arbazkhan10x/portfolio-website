@@ -17,7 +17,8 @@
     <section class="hero">
       <div class="hero-content">
         <h1>Hi, I am Arbaz</h1>
-        <p>Future Full Stack Developer</p>
+        <p id"hero-text">Future full stack developer</p>
+        <button class="btn" onclick="changeText">Click Me</button>
         <a href="resume.pdf" class="btn" download>Download Resume</a>
 
         <a class="btn" href="about.html">Know More</a>
@@ -80,10 +81,13 @@
 </section>
 
     <script>
-      console.log("javascript connected")
+      function changeText() {
+        document.getElementById("hero-text").innerText = "I am learning javascript";
+      }
     </script>
   </body>
 </html>
+
 
 
 
