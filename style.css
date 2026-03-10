@@ -57,6 +57,7 @@ nav {
   color: black;
   text-decoration: none;
   border-radius: 5px;
+  border: none;
 }
 
 /* About Section */
@@ -228,4 +229,31 @@ nav {
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
+}
+
+.skills{
+  text-align:center;
+  padding:60px 20px;
+  background:#f5f5f5;
+}
+
+.skills-container{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin-top:30px;
+  flex-wrap:wrap;
+}
+
+.skill{
+  background:#111;
+  color:white;
+  padding:20px;
+  width:150px;
+  border-radius:8px;
+  transition:0.3s;
+}
+
+.skill:hover{
+  transform:scale(1.1);
 }
