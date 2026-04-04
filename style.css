@@ -203,11 +203,18 @@ nav {
   font-weight: bold;
 }
 
-.contact {
+/* .contact {
   padding: 60px 80px;
   text-align: center;
   background: #111;
   color: white;
+} */
+
+.contact{
+  width: 100%;
+  padding: 40px 20px;
+  background: #111;
+  box-sizing: border-box;
 }
 
 .contact h2 {
@@ -287,10 +294,11 @@ nav {
 
 @media (max-width: 768px) {
 
-  .contact-form{
+  /* .contact-form{
     width: 90%;
-  }
-  
+    content: ;
+  } */
+
   nav{
     flex-direction: column;
     text-align: center;
@@ -326,10 +334,20 @@ nav {
 }
 
 .contact-form{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   width: 300px;
-  margin: 20px auto;
+  margin: 20px auto; */
+
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width:768px) {
+  .contact{
+    padding: 30px 15px;
+  }
 }
 
 .contact-form input,
