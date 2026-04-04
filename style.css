@@ -286,6 +286,11 @@ nav {
 }
 
 @media (max-width: 768px) {
+
+  .contact-form{
+    width: 90%;
+  }
+  
   nav{
     flex-direction: column;
     text-align: center;
