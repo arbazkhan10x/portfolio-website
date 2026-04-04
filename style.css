@@ -78,10 +78,19 @@ nav {
 }
 
 .box {
-    width: 200px;
-    height: 200px;
-    background-color: #00ffcc;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #00ffd5, #00aaff);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+
+/* .profile-img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+} */
 
 @media (max-width: 768px) {
   nav{
@@ -338,4 +347,21 @@ nav {
   border: none;
   font-weight: bold;
   cursor: pointer;
+}
+
+footer{
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-links{
+  margin-top: 10px;
+}
+
+.social-links a{
+  color: #00ffd5;
+  margin: 0 10px;
+  text-decoration: none;
 }
